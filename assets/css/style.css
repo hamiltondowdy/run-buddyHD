@@ -4,10 +4,7 @@
   box-sizing: border-box;
   }
 
-.contact-info > *{
-  flex: 1;
-  margin: 15px;
-}
+
   
 body {
     color: #39a6b2;
@@ -83,10 +80,8 @@ section {
 
 .hero {
     background-image: url("../images/flipped-hero-image.jpeg");
-    height: 600px;
     background-size: cover;
     background-position: center;
-    position: relative;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -111,15 +106,13 @@ section {
     border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
-    width: 40%;
-    margin: 3.5;
     color: #024e76;
     position: absolute;
     bottom: 120px;
-    right: 140px;
+    margin: 3.5%;
   }
 
-.hero-form h4 {
+.hero-form h3 {
     font-size: 24px;
     margin: 0;
   }
@@ -284,6 +277,11 @@ font-size: 17px;
 
 .contact h2 {
   color: #fce138;
+}
+
+.contact-info > *{
+  flex: 1;
+  margin: 15px;
 }
 
 .contact-info iframe {
