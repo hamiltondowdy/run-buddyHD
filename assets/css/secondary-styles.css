@@ -1,5 +1,5 @@
 .hero {
-    background-image: url(/Users/hilldowdy/Desktop/Projects/run-buddyHD/assets/images/hero-bg.jpeg);
+    background-image: url(./assets/images/hero-bg.jpeg);
     background-size: cover;
     background-position: bottom;
     position: relative;
